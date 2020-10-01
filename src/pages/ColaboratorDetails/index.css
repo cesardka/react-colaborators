@@ -1,0 +1,32 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+header button {
+  width: 50px;
+  height: 20px;
+}
+
+.feedback-list {
+  display: flex;
+  flex-direction: column;
+}
+
+h3 > span {
+  margin: 0 10px;
+}
+
+textarea {
+  resize: none;
+  height: 4em;
+  width: 400px;
+}
+
+button {
+  color: #ffffff;
+  background: #122ab2;
+  border: none;
+}

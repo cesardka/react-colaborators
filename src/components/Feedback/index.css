@@ -1,0 +1,12 @@
+.likes,
+.remove {
+  width: 120px;
+  align-self: flex-end;
+  cursor: pointer;
+  padding: 0 2px;
+}
+
+.likes:hover,
+.remove:hover {
+  transform: scale(2.1);
+}
